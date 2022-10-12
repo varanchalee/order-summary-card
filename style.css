@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat:space;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: hsl(225, 100%, 98%);
+    max-width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: .75em;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    overflow: hidden;  
+}
+
+section:first-child {
+    max-width: 100%;
+    margin-block-end: .5em;
+    
+}
+
+img {
+    max-width: 100%; 
+}
+
+main section:nth-child(2) h1{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+section div:first-child h1 {
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.15em;
+    color: hsl(224, 23%, 23%);
+}
+
+section div:first-child p {
+    text-align: center;
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: .75em;
+    color: hsl(224, 23%, 55%);
+}
+
+main .price-box {
+    background-color: hsl(225, 100%, 96.5%);
+    border-radius: .25em;
+    margin-block-start: 1em;
+    margin-inline: 28px;
+    padding: 15px; 
+    display: flex;
+    align-items: center;
+}
+
+.price-box img {
+    padding: 0 5px;
+    max-width: 40px;
+    align-self: center;
+}
+
+.texts p {
+    align-self: center;
+}
+
+.texts p:first-child {
+    padding: 0 10px;
+    font-size: .75em;
+    font-weight: 900;
+}
+
+.texts p:last-child {
+    padding: 3px 10px;
+    font-size: .75em;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.chang-button {
+    margin-left: auto;
+    font-size: .5em;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.chang-button:hover {
+    color: hsl(245, 75%, 60%);
+    cursor: pointer;
+}
+
+div.payment-button {
+    border-radius: 1.75em;
+    margin-block-start: 5em;
+    margin-inline: 28px;
+}
+
+.payment-button {
+    background-color: hsl(245, 75%, 52%);
+    padding-block: 2.5em; 
+    color: hsl(225, 100%, 94%);
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    text-align: center;
+    font-weight: 700;
+    font-size: .25em;
+}
+
+.payment-button:hover {
+    background-color: hsl(245, 75%, 60%);
+    cursor: pointer;
+}
+
+.cancle-button {
+    margin-block: 3em;
+    text-align: center;
+    font-size: .25em;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancle-button:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+body .attribution {
+    padding: 10px;
+    font-size: 0.5em;
+}
+
+body .attribution a {
+    margin: auto;
+    align-self: flex-end;
+    font-weight: 500;
+    font-size: 0.5em;
+    color: hsl(245, 75%, 52%);
+}
+
